@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #666666;
+}
+
+.header {
+    display: flex;
+    background-color: transparent;
+    padding: 2.0rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-width: .1rem;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+}
+
+.header-nome {
+    font-weight: 700;
+    font-size: 3.4rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: 4.0rem;
+    color: #000000;
+}
+
+.header-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4.0rem;
+  padding: 0rem;
+  margin: 0rem;
+  margin-right: 4.0rem;
+}
+
+.header-navigation-first {
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-navigation-second {
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #000000;
+}
+
+.content {
+  display: flex;
+  margin-bottom: 30.0rem;
+}
+
+.content-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-items-img {
+  height: 22.0rem;
+  position: absolute;
+  margin-top: 2.0rem;
+  margin-left: 5.0rem;
+}
+
+.content-items-title {
+  font-weight: 700;
+  font-size: 6.0rem;
+  padding: 0rem;
+  margin-top: 8.0rem;
+  margin-bottom: 0rem;
+  margin-left: 20.0rem;
+}
+
+.content-items-text {
+  font-weight: 500;
+  font-size: 2.0rem;
+  padding: 0rem;
+  margin-top: .6rem;
+  margin-left: 22.0rem;
+}
+
+.footer {
+  background-color: black;
+  padding: 2.5rem;
+  border-width: 0rem;
+  border-radius: 2.0rem 2.0rem 0rem 0rem;
+}
+
+.footer-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4.0rem;
+}
+
+.footer-navigation-behance {
+  text-decoration: none;
+}
+
+.footer-navigation-behance-icon {
+  height: 2.0rem;
+}
+
+.footer-navigation-github {
+  text-decoration: none;
+}
+
+.footer-navigation-github-icon {
+  height: 2.0rem;
+}
+
+.footer-navigation-instagram {
+  text-decoration: none;
+}
+
+.footer-navigation-instagram-icon {
+  height: 2.0rem;
+}
