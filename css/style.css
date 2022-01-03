@@ -70,7 +70,8 @@ a:hover {
 
 .content {
   display: flex;
-  margin-bottom: 30.0rem;
+  flex-direction: column;
+  margin-bottom: 12.0rem;
 }
 
 .content-items {
@@ -100,6 +101,52 @@ a:hover {
   padding: 0rem;
   margin-top: .6rem;
   margin-left: 22.0rem;
+}
+
+.content-forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8.0rem;
+}
+
+.content-forms-title {
+  font-weight: 500;
+  font-size: 2.2rem;
+  color: #000000;
+}
+
+.content-forms-paragraph {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.content-forms-infos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.4rem;
+}
+
+.content-forms-infos-firstdiv {
+  margin-right: .6rem;
+}
+
+.content-forms-infos-firstdiv-email {
+  padding: 1.2rem 6.0rem;
+  border-radius: 0.8rem;
+  border-width: 0rem;
+  font-size: 1.4rem;
+  background-color: #e4e4e4;
+}
+
+.content-forms-infos-seconddiv-button {
+  padding: 1.2rem 2.0rem;
+  border-radius: 0.8rem;
+  border-width: 0rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
 .footer {
